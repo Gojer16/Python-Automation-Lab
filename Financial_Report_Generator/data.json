@@ -1,0 +1,30 @@
+[
+    {
+        "revenue": 1000,
+        "profit": 10
+    },
+    {
+        "revenue": 2000,
+        "profit": 17
+    },
+    {
+        "revenue": 2500,
+        "profit": 170
+    },
+    {
+        "revenue": 2500,
+        "profit": -170
+    },
+    {
+        "revenue": 5000,
+        "profit": 250
+    },
+    {
+        "revenue": 3000,
+        "profit": 0
+    },
+    {
+        "revenue": 7500,
+        "profit": 450
+    }
+]

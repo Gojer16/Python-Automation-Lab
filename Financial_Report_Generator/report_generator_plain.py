@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Robust Financial Data Formatter (Pure Python)
 Updated to include error handling, input validation, and multiple data sources.

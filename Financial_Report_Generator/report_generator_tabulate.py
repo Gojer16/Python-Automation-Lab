@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Robust Financial Data Formatter (Using Tabulate)
 Updated to include error handling, input validation, and multiple data sources.
@@ -21,7 +20,6 @@ def validate_financial_data(revenue: any, profit: any) -> Optional[Tuple[float, 
     try:
         rev = float(revenue)
         prof = float(profit)
-        # Tabulate handles 0 division gracefully in logic below, but we can filter if we want
         return (rev, prof)
     except (ValueError, TypeError) as e:
         print(f"❌ Error: Invalid data - revenue: {revenue}, profit: {profit} ({e})", file=sys.stderr)
